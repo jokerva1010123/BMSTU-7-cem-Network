@@ -1,0 +1,58 @@
+encapsulation dotlq <VLAN>
+configure terminal
+interface vlan 1
+ip default-gateway <adress>
+show interface vlan 1
+show vlan
+switchport access vlan <nomer VLAN>
+switchport mode trunk
+
+
+$2a$10$P9rjeEp3YawDFcPh/7dVMexCb.Q2qp/.ZCz7BaH908AAAaHogoSMS
+
+
+quang@LAPTOP-FABHIK1K MINGW64 /d/Kur/exams (main)
+$ git add .
+
+quang@LAPTOP-FABHIK1K MINGW64 /d/Kur/exams (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   exams-client/assets/js/common/Utils.js
+        modified:   exams/src/main/resources/application.properties
+
+
+quang@LAPTOP-FABHIK1K MINGW64 /d/Kur/exams (main)
+$ git commit -m "update port"
+[main a51f0d9] update port
+ 2 files changed, 3 insertions(+), 3 deletions(-)
+
+quang@LAPTOP-FABHIK1K MINGW64 /d/Kur/exams (main)
+$ git put
+git: 'put' is not a git command. See 'git --help'.
+
+The most similar commands are
+        pull
+        push
+        update
+
+quang@LAPTOP-FABHIK1K MINGW64 /d/Kur/exams (main)
+$ git push
+Enumerating objects: 23, done.
+Counting objects: 100% (23/23), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (12/12), done.
+Writing objects: 100% (12/12), 903 bytes | 150.00 KiB/s, done.
+Total 12 (delta 7), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (7/7), completed with 7 local objects.
+To https://github.com/thangwsn/exams.git
+   9388059..a51f0d9  main -> main
+
+quang@LAPTOP-FABHIK1K MINGW64 /d/Kur/exams (main)
+$ ^C
+
+quang@LAPTOP-FABHIK1K MINGW64 /d/Kur/exams (main)
+$
