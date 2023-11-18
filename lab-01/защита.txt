@@ -1,0 +1,4 @@
+ping pc7 to switch4 with router
+-> set pc7 khac vlan với switch4
+dùng console pc5 để ping đến pc vlan7
+-> set ip và default gateway cho switch console rồi dùng lệnh ping [ip-cần-ping]
