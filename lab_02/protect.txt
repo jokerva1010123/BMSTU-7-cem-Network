@@ -1,0 +1,5 @@
+thêm switch 5 , set vtp client với domain và password như các switch khác.
+set up để add vlan mới ở server nhưng ko thay đổi ở switch 5
+=> dây nôi là access
+chặn 1 đường nối ở switch có vtp client tới 1 máy ko dùng sswitch đó
+=> xóa vlan tương ứng đường nối ở switch vtp server
